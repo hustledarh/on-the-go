@@ -1,7 +1,7 @@
 import React from "react"
 import { Container,Stack} from "react-bootstrap"
 import { useState } from "react";
-function Home(){
+function UniqueLines(){
 
     const [postContent, setPostContent] = useState('');
 
@@ -29,4 +29,4 @@ return(
 )
 }
 
-export default Home
+export default UniqueLines

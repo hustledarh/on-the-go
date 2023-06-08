@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import NavigationBar from "./components/Navigation";
-import UniqueLines from "./pages/Home";
+import UniqueLines from "./pages/UniqueLines";
 import About from "./pages/About";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

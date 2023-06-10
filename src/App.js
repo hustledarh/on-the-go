@@ -11,6 +11,7 @@ function App() {
     <Container className='px-0' fluid={true}>
       <NavigationBar/>
       <Container className="px-1 pb-5">
+        <UniqueLines/>
       <BrowserRouter>
         <Routes>
           <Route path="/about" element={<About />} />

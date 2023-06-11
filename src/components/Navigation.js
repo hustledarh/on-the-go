@@ -10,13 +10,10 @@ function NavScrollExample() {
         <Navbar.Brand href="/" className='ms-5'>On The Go Tools</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse >
-          <Nav
-            className="mx-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-          >
+          <Nav className='mx-auto'>
             <Nav.Link as={Link} to="/">Unique Lines</Nav.Link>
-            <Nav.Link as={Link} to="/encode" disabled>Encode</Nav.Link>
-            <Nav.Link as={Link} to="/deserialize" disabled>DeSerialize</Nav.Link>
+            <Nav.Link as={Link} to="/encode" disable>Encode</Nav.Link>
+            <Nav.Link as={Link} to="/deserialize" disable>DeSerialize</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>

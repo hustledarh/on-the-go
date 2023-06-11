@@ -14,7 +14,7 @@ function NavScrollExample() {
             <Nav.Link as={Link} to="/">Unique Lines</Nav.Link>
             <Nav.Link as={Link} to="/encode" disabled>Encode</Nav.Link>
             <Nav.Link as={Link} to="/deserialize" disabled>DeSerialize</Nav.Link>
-            <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link as={Link} to="/about" disabled>About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

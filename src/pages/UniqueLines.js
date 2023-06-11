@@ -25,13 +25,13 @@ return(
         <Row className="justify-content-around " >
         <Col className=" text-center"  >
         <h1 className="">Input Lines</h1> 
-        <textarea type="text" className="w-75" rows={25} onChange={handleChange} placeholder="Input Lines"  />  
+        <textarea type="text" className="w-75" rows={20} onChange={handleChange} placeholder="Input Lines"  />  
         <p><b>input lines count</b> : {inputLinesCount}</p> 
         </Col>
 
         <Col className="text-center">
         <h1>Unique Lines</h1>  
-        <textarea rows={25} className="w-75" value={postContent} type="text"  placeholder="Unique Lines" />    
+        <textarea className="w-75" rows={20} value={postContent} type="text"  placeholder="Unique Lines" />    
         <p><b>unique lines count</b> : {uniqueLinesCount}</p>
         </Col>
         </Row>

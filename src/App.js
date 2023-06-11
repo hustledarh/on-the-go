@@ -16,7 +16,6 @@ function App() {
           <Route exact path="/" element={<UniqueLines />} />
         </Routes>
       </Container>
-      <Footer/>
     </Container>
 
 

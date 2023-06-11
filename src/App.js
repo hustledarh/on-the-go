@@ -10,7 +10,7 @@ function App() {
   return (
     <Container className='px-0' fluid={true}>
       <NavigationBar/>
-      <Container className="my-auto px-1 pb-5">
+      <Container className="my-auto px-1 pb-5 pt-5">
         <Routes>
           <Route exact path="/about" element={<About />} />
           <Route exact path="/" element={<UniqueLines />} />

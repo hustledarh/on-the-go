@@ -12,8 +12,8 @@ function App() {
       <NavigationBar/>
       <Container className="px-1 pb-5">
         <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/" element={<UniqueLines />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/" element={<UniqueLines />} />
         </Routes>
       </Container>
       <Footer/>

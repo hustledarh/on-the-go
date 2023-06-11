@@ -7,7 +7,7 @@ function NavScrollExample() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/" className='ms-5'>On The Go Tools</Navbar.Brand>
+        <Navbar.Brand href="/" className='ms-sm-5'><strong>On The Go Tools</strong></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse >
           <Nav className='mx-auto'>

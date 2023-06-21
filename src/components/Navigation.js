@@ -11,10 +11,10 @@ function NavScrollExample() {
         <Navbar.Toggle />
         <Navbar.Collapse >
           <Nav className='mx-auto'>
-            <Nav.Link as={Link} to="/">Unique Lines</Nav.Link>
-            <Nav.Link as={Link} to="/encode" disabled>Encode</Nav.Link>
-            <Nav.Link as={Link} to="/deserialize" disabled>DeSerialize</Nav.Link>
-            <Nav.Link as={Link} to="/about" disabled>About</Nav.Link>
+            <Nav.Link as={Link} className="border" to="/">Remove Duplicate Lines</Nav.Link>
+            <Nav.Link as={Link} className="border" to="/jsonformatter">Json Formatter</Nav.Link>
+            <Nav.Link as={Link} className="border" to="/deserialize" disabled>DeSerialize</Nav.Link>
+            <Nav.Link as={Link} className="border" to="/about" disabled>About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

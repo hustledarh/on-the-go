@@ -21,7 +21,7 @@ function UniqueLines(){
 
 
 return(
-    <Container >
+    <Container className="my-auto px-1 pb-5 pt-5">
         <Row className="justify-content-around " >
         <Col className=" text-center"  >
         <h1 className="">Input Lines</h1> 

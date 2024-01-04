@@ -15,7 +15,7 @@ function NavScrollExample() {
             <Nav.Link as={Link} className="border" to="/jsonformatter">Json Formatter</Nav.Link>
             <Nav.Link as={Link} className="border" to="/stringOperations">String Operations</Nav.Link>
             <Nav.Link as={Link} className="border" to="/encodeDecode">Encode Decode</Nav.Link>
-            <Nav.Link as={Link} className="border" to="/aboutus">AboutUs</Nav.Link>
+            <Nav.Link as={Link} className="border" to="/aboutUs">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

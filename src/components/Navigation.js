@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import './Navigation.css'
 
 function NavScrollExample() {
   return (
@@ -11,11 +12,11 @@ function NavScrollExample() {
         <Navbar.Toggle />
         <Navbar.Collapse >
           <Nav className='mx-auto'>
-            <Nav.Link as={Link} className="border" to="/">Remove Duplicate Lines</Nav.Link>
-            <Nav.Link as={Link} className="border" to="/jsonformatter">Json Formatter</Nav.Link>
-            <Nav.Link as={Link} className="border" to="/stringOperations">String Operations</Nav.Link>
-            <Nav.Link as={Link} className="border" to="/encodeDecode">Encode Decode</Nav.Link>
-            <Nav.Link as={Link} className="border" to="/aboutUs">About Us</Nav.Link>
+            <Nav.Link as={Link} className="border navLink" to="/">Remove Duplicate Lines</Nav.Link>
+            <Nav.Link as={Link} className="border navLink" to="/jsonformatter">Json Formatter</Nav.Link>
+            <Nav.Link as={Link} className="border navLink" to="/stringOperations">String Operations</Nav.Link>
+            <Nav.Link as={Link} className="border navLink" to="/encodeDecode">Encode Decode</Nav.Link>
+            <Nav.Link as={Link} className="border navLink" to="/aboutUs">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

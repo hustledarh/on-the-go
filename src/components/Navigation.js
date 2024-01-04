@@ -15,7 +15,7 @@ function NavScrollExample() {
             <Nav.Link as={Link} className="border navLink" to="/">Remove Duplicate Lines</Nav.Link>
             <Nav.Link as={Link} className="border navLink" to="/jsonformatter">Json Formatter</Nav.Link>
             <Nav.Link as={Link} className="border navLink" to="/stringOperations">String Operations</Nav.Link>
-            <Nav.Link as={Link} className="border navLink" to="/encodeDecode">Encode Decode</Nav.Link>
+            <Nav.Link as={Link} className="border navLink" to="/encodeDecodeUrl">Encode Decode Url</Nav.Link>
             <Nav.Link as={Link} className="border navLink" to="/aboutUs">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>

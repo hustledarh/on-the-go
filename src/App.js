@@ -13,7 +13,7 @@ function App() {
       <NavigationBar/>
       <Routes>
         <Route exact path="/jsonformatter" element={<JsonFormatter />} />
-        <Route exact path="/encodeDecode" element={<EncodeDecode />} />
+        <Route exact path="/encodeDecodeUrl" element={<EncodeDecode />} />
         <Route exact path="/stringOperations" element={<StringOperations/>} />
         <Route exact path="/" element={<UniqueLines />} />
         <Route exact path="/aboutus" element={<About />} />
